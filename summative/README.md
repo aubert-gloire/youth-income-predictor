@@ -64,6 +64,7 @@ Shows the relationship between age and income, revealing optimal age ranges for 
 ## Public API Endpoint
 
 **Base URL:** https://youth-income-predictor.onrender.com 
+
 **Swagger UI:** https://youth-income-predictor.onrender.com/docs 
 
 The `/predict` endpoint accepts 10 input features and returns the predicted monthly income in Rwandan Francs.
@@ -164,5 +165,6 @@ flutter run
 
 # CONTACT
 
-Names: Aubert Gloire Bihibindi
-Email: a.bihibindi1@alustudent.com
+**Names:** Aubert Gloire Bihibindi
+
+**Email:** a.bihibindi1@alustudent.com
