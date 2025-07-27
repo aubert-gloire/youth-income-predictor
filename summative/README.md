@@ -1,11 +1,11 @@
 # Youth Income Predictor
 
-## Mission
+## Mission 
 
 Empowering Rwandan youth with accurate income predictions using socio-economic data and machine learning. 
 Built to address youth unemployment by providing actionable insights for policy makers and individuals seeking economic opportunities.
 
-## About Dataset
+## About Dataset and it's source
 
 The dataset captures comprehensive socio-economic factors affecting youth employment and income in Rwanda. It includes demographic, educational, regional, and economic variables from real-world youth employment surveys.
 
@@ -69,35 +69,6 @@ Our comprehensive machine learning pipeline implements and compares **5 differen
 
 **Selection Methodology:** Models are ranked by lowest Mean Squared Error (MSE) to minimize prediction loss, ensuring the most accurate income predictions for youth in Rwanda.
 
-## Technical Implementation
-
-### Machine Learning Pipeline
-
-Our comprehensive ML pipeline includes:
-
-1. **Data Preprocessing & Feature Engineering**
-   - StandardScaler for numerical features
-   - LabelEncoder for categorical variables
-   - Missing value imputation
-   - Feature creation (age groups, income categories)
-
-2. **5-Model Comparison Framework**
-   - **Linear Regression:** Baseline scikit-learn implementation
-   - **Custom Gradient Descent:** Hand-coded gradient descent algorithm
-   - **SGD Linear Regression:** Stochastic gradient descent approach
-   - **Decision Tree Regressor:** Tree-based non-linear model
-   - **Random Forest Regressor:** Ensemble method (Best Performance)
-
-3. **Model Selection Strategy**
-   - Primary Metric: Lowest Mean Squared Error (MSE)
-   - Secondary Metric: Highest R² Score
-   - Cross-validation on 80/20 train-test split
-
-4. **Model Artifacts**
-   - `best_model.pkl`: Trained Random Forest model
-   - `scaler.pkl`: StandardScaler for feature normalization
-   - `label_encoders.pkl`: Categorical encoders
-   - `feature_names.txt`: Feature list for API
 
 ## Public API Endpoint
 
@@ -158,36 +129,6 @@ summative/
         └── pubspec.yaml
 ```
 
-## Technical Implementation
-
-### Machine Learning Pipeline
-
-Our comprehensive ML pipeline includes:
-
-1. **Data Preprocessing & Feature Engineering**
-   - StandardScaler for numerical features
-   - LabelEncoder for categorical variables
-   - Missing value imputation
-   - Feature creation (age groups, income categories)
-
-2. **5-Model Comparison Framework**
-   - **Linear Regression:** Baseline scikit-learn implementation
-   - **Custom Gradient Descent:** Hand-coded gradient descent algorithm
-   - **SGD Linear Regression:** Stochastic gradient descent approach
-   - **Decision Tree Regressor:** Tree-based non-linear model
-   - **Random Forest Regressor:** Ensemble method (Best Performance)
-
-3. **Model Selection Strategy**
-   - Primary Metric: Lowest Mean Squared Error (MSE)
-   - Secondary Metric: Highest R² Score
-   - Cross-validation on 80/20 train-test split
-
-4. **Model Artifacts**
-   - `best_model.pkl`: Trained Random Forest model
-   - `scaler.pkl`: StandardScaler for feature normalization
-   - `label_encoders.pkl`: Categorical encoders
-   - `feature_names.txt`: Feature list for API
-
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/yourusername/youth-income-predictor.git
@@ -215,38 +156,19 @@ flutter run
 3. Fill in all required fields (age, gender, education, etc.)
 4. Tap "Predict" to get income prediction results
 
-## Key Insights from Analysis
 
-### Most Important Features for Income Prediction:
+### DEMO Video:
 
-1. **Education Level** - University education shows highest income correlation
-2. **Digital Skills** - Advanced digital skills significantly boost income potential  
-3. **Regional Employment Rate** - Higher employment regions offer better opportunities
-4. **Training Participation** - Professional training programs increase income prospects
-5. **Age** - Experience factor with optimal range around 25-28 years
-
-### Regional Analysis:
-
-- **Kigali:** Highest average income potential
-- **Eastern Province:** Growing employment opportunities
-- **Northern Province:** Focus on agriculture and rural development
-- **Western Province:** Tourism and trade sectors
-- **Southern Province:** Mixed economic activities
-
-### Model Validation Features:
-
-- **Loss Curve Analysis:** Tracks training convergence for gradient descent models
-- **Before/After Visualization:** Shows data relationships with and without model predictions
-- **Single Prediction Demo:** Tests individual case predictions across all 5 models
-- **Feature Importance Ranking:** Identifies most impactful features for income prediction
-- **Residual Analysis:** Validates model assumptions and prediction quality
-
----
+**Watch the demo video here:** [YouTube Demo](https://youtu.be/Ov8Ply9gNJw)
 
 **A project addressing youth unemployment in Rwanda through data-driven insights and accessible mobile technology.**
 
-# CONTACT
+# CONTACTS
 
 **Names:** Aubert Gloire Bihibindi
 
 **Email:** a.bihibindi1@alustudent.com
+
+**Tel:** +250788268061
+
+Thank you!!! Hope you enjoy the App
