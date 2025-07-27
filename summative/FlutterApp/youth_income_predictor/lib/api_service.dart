@@ -3,7 +3,7 @@ import 'dart:convert';
 
 class ApiService {
   // Set your deployed API base URL here for production
-  static const String _baseUrl = 'http://192.168.1.70:8000'; // Local network IP for device testing
+  static const String _baseUrl = 'https://youth-income-predictor.onrender.com'; // Public Render API URL for production
 
   static Future<Map<String, dynamic>> predictIncome(Map<String, dynamic> input) async {
     final url = Uri.parse('$_baseUrl/predict');
